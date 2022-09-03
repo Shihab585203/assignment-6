@@ -2,3 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #F6F6F7;
 }
+
+.category-name:hover{
+    color: #0D6EFD !important;
+}
