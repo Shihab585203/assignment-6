@@ -6,3 +6,45 @@ body {
 .category-name:hover{
     color: #0D6EFD !important;
 }
+
+
+.navs{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    }
+   @media screen and (max-width: 600px){
+    .navs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   } 
+   
+    @media screen and (max-width: 768px) {
+    .navs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .navs a{
+    
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+   font-weight: bold;
+     }
+     }
+    
+   .cards{
+    overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; 
+   -webkit-box-orient: vertical; 
+    }
+    .img{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+    }
