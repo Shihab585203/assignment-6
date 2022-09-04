@@ -10,6 +10,7 @@ document.getElementById('blog-menubar').addEventListener('click', function(){
     window.location.href = 'blog.html';
 })
 
+//load categories menu
 const loadAllData = async() =>{
     const url = ` https://openapi.programming-hero.com/api/news/categories`
     try{
@@ -23,6 +24,7 @@ const loadAllData = async() =>{
    
 }
 loadAllData()
+
 
 const displayAllData = allNews =>{
   
@@ -105,6 +107,8 @@ const detailModal = async (dataId) =>{
     
     
 }
+
+// Add Modal Section
 const displayModal = id =>{
    
     id.forEach(newsId =>{
