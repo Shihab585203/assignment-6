@@ -1,14 +1,14 @@
-// Indicate Page Location
-// document.getElementById('news-menubar').addEventListener('click', function(){
-//     window.location.href = 'index.html';
-// })
-// document.getElementById('logo').addEventListener('click', function(){
-//     window.location.href = 'index.html';
-// })
+//Indicate Page Location
+document.getElementById('news-menubar').addEventListener('click', function(){
+    window.location.href = 'index.html';
+})
+document.getElementById('logo').addEventListener('click', function(){
+    window.location.href = 'index.html';
+})
 
-// document.getElementById('blog-menubar').addEventListener('click', function(){
-//     window.location.href = 'blog.html';
-// })
+document.getElementById('blog-menubar').addEventListener('click', function(){
+    window.location.href = 'blog.html';
+})
 
 const loadAllData = async() =>{
     const url = ` https://openapi.programming-hero.com/api/news/categories`
